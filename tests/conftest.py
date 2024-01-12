@@ -15,7 +15,7 @@ def load_env():
 
 
 @pytest.fixture(scope='function', autouse=True)
-def setup_browser(request):
+def setup_browser():
     options = Options()
     selenoid_capabilities = {
         "browserName": 'chrome',
