@@ -1,6 +1,6 @@
 import allure
 from metro_tests_suite.pages.product_page import Product
-
+from selene import browser
 
 @allure.title('Add product to cart (unregistered user)')
 def test_add_product():
