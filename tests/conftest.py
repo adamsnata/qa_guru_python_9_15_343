@@ -33,7 +33,7 @@ def setup_browser():
     )
 
     browser.config.driver = driver
-    browser.config.base_url = 'https://online.metro-cc.ru/'
+    browser.config.base_url = 'https://www.google.com/'
     browser.config.timeout = 10
     browser.config.window_width = 1920
     browser.config.window_height = 1080
