@@ -8,6 +8,7 @@ def test_add_product():
 
     with allure.step('Open main page'):
         product.open_main_page()
+        browser.open('https://online.metro-cc.ru/')
 
     with allure.step('Enter the product name'):
         product.search_product('METRO Chef Мороженое Пломбир ванильный, 2.5кг')

@@ -4,6 +4,7 @@ from metro_tests_suite.pages.promo_page import Promo
 
 @allure.title('Happy new year promobanner')
 def test_promobanners():
+
     promo_banners = Promo()
 
     with allure.step('Open main page'):
